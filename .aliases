@@ -12,12 +12,8 @@ alias -- -="cd -"
 alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-<<<<<<< HEAD
-alias p="cd ~/Projects"
 alias gd="cd ~/Documents/git"
-=======
 alias p="cd ~/projects"
->>>>>>> 99996f3f01deb49b77b8549a8691bb9cfec86fb0
 alias g="git"
 alias h="history"
 alias j="jobs"
@@ -155,11 +151,7 @@ done
 command -v grunt > /dev/null && alias grunt="grunt --stack"
 
 # Stuff I never really use but cannot delete either because of http://xkcd.com/530/
-alias stfu="osascript -e 'set volume output muted true'"
-<<<<<<< HEAD
-alias pumpitup="osascript -e 'set volume 7'"
 alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
-=======
 alias pumpitup="osascript -e 'set volume output volume 100'"
 
 # Kill all the tabs in Chrome to free up memory
@@ -174,4 +166,3 @@ alias reload="exec $SHELL -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
->>>>>>> 99996f3f01deb49b77b8549a8691bb9cfec86fb0

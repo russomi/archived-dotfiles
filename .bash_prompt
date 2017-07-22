@@ -118,12 +118,5 @@ PS1+="\n";
 PS1+="\[${white}\]\$ \[${reset}\]"; # `$` (and reset color)
 export PS1;
 
-<<<<<<< HEAD
-#export CLICOLOR=1;
-export PS1='\[\e[0:35m⌘\e[m \e[0:36m\w/\e[m \e[0:33m`git branch 2> /dev/null | grep -e ^* | sed -E  s/^\\\\\*\ \(.+\)$/\(\\\\\1\)\ /`\e[m\]'
-#export PS1="\[${BOLD}${MAGENTA}\]\u \[$WHITE\]at \[$ORANGE\]\h \[$WHITE\]in \[$GREEN\]\w\[$WHITE\]\$([[ -n \$(git branch 2> /dev/null) ]] && echo \" on \")\[$PURPLE\]\$(parse_git_branch)\[$WHITE\]\n\$ \[$RESET\]"
-#export PS2="\[$ORANGE\]→ \[$RESET\]"
-=======
 PS2="\[${yellow}\]→ \[${reset}\]";
 export PS2;
->>>>>>> 99996f3f01deb49b77b8549a8691bb9cfec86fb0
