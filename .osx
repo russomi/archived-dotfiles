@@ -13,10 +13,10 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 
 # Set computer name (as done via System Preferences → Sharing)
-# sudo scutil --set ComputerName "mirusso-macbook-pro"
-# sudo scutil --set HostName "mirusso-macbook-pro"
-# sudo scutil --set LocalHostName "mirusso-macbook-pro"
-# sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "mirusso-macbook-pro"
+# sudo scutil --set ComputerName "russomi-air"
+# sudo scutil --set HostName "russomi-air"
+# sudo scutil --set LocalHostName "russomi-air"
+# sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "russomi-air"
 
 # Menu bar: disable transparency
 defaults write NSGlobalDomain AppleEnableMenuBarTransparency -bool false
